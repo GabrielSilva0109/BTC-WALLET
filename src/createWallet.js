@@ -17,8 +17,14 @@ let root = bip32.fromSeed(seed, network)
 
 //Criando uma conta - par pvt-pub-keys
 let account = root.derivePath(path)
+let node = account.derive(0).derive(0)
 
 let btcAddress = bitcoin.payments.p2pkh({
     pubkey: node.publicKey,
     network: network
 }).address
+
+console.log('Wallet Created!')
+console.log('Address: ', btcAddress)
+console.log('PrivateKey: ', node.toWIF())
+console.log('Seed: ', mnemonic)
