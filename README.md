@@ -11,27 +11,4 @@ This repository contains my studies and experiments with blockchain technologies
 Solidity: Programming language used to write smart contracts on the Ethereum platform.
 Web3.js: JavaScript library for interacting with the Ethereum blockchain.
 Node.js: JavaScript runtime environment.
-
-Prerequisites
-Before getting started, make sure you have the following installed:
-
-Node.js
 Metamask (optional, for interacting with the application on the web)
-
-## Installation
-Clone the repository:
-
-bash
-Copiar código
-git clone [https://github.com/your-username/your-repository.git](https://github.com/GabrielSilva0109/META-WALLET)
-
-`
-cd BTC_WALLET or cd ETH_WALLET  
-`
-
-## Install the dependencies:
-`npm install`
-
-Solidity Documentation
-Ethereum.org
-Web3.js Documentation
